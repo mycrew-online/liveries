@@ -1,0 +1,23 @@
+# Built packages and working files: large, and rebuilt by scripts/
+dist/
+work/
+
+# Aircraft makers' paint kits: downloaded from them, never republished
+paintkits/
+
+# Third-party programs, fetched separately
+tools/
+
+# Logos: not under the code's licence, published only if their owners decide to
+brand/*.svg
+brand/*.png
+brand/wanted-trace.json
+
+# C172 parts derive from the sim's stock skin
+c172/Packages/
+c172/PackageSources/
+c172/_PackageInt/
+
+__pycache__/
+*.pyc
+*.xml.user

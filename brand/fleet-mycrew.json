@@ -1,0 +1,101 @@
+{
+  "brand": "mycrew",
+  "title": "MyCrew",
+  "creator": "WANTED.solutions s.r.o. | MyCrew.online",
+  "version": "1.1.0",
+  "icao": "MCR",
+  "callsign": "MYCREW",
+  "selcal": [
+    "MC-AB",
+    "MC-CD",
+    "MC-EF",
+    "MC-GH",
+    "MC-JK",
+    "MC-LM",
+    "MC-PQ",
+    "MC-AC",
+    "MC-BD",
+    "MC-EG",
+    "MC-FH",
+    "MC-JL",
+    "MC-AE",
+    "MC-BF",
+    "MC-CG",
+    "MC-DH",
+    "MC-EJ",
+    "MC-FK",
+    "MC-GL",
+    "MC-HM",
+    "MC-JP"
+  ],
+  "variants": {
+    "a": "Sweep",
+    "b": "Badge",
+    "c": "Night Crew",
+    "d": "Radar",
+    "h": "Hex Trail",
+    "i": "Big Mark",
+    "j": "Heritage"
+  },
+  "types": {
+    "a319": {
+      "regs": [
+        "OK-MYA",
+        "OK-MYB",
+        "OK-MYC",
+        "OK-MYD",
+        "OK-MYQ",
+        "OK-MYR",
+        "OK-MYS"
+      ]
+    },
+    "a320": {
+      "regs": [
+        "OK-MYE",
+        "OK-MYF",
+        "OK-MYG",
+        "OK-MYH",
+        "OK-MYT",
+        "OK-MYU",
+        "OK-MYV"
+      ]
+    },
+    "a321": {
+      "regs": [
+        "OK-MYI",
+        "OK-MYJ",
+        "OK-MYK",
+        "OK-MYL",
+        "OK-MYW",
+        "OK-MYX",
+        "OK-MYY"
+      ]
+    }
+  },
+  "fbw": {
+    "regs": [
+      "OK-MYM",
+      "OK-MYN",
+      "OK-MYO",
+      "OK-MYP",
+      "OK-MYZ",
+      "OK-MZA",
+      "OK-MZB"
+    ],
+    "sharklet": {
+      "a": "#1A2436",
+      "b": "#f2f2f2",
+      "c": "#D4AF37",
+      "d": "#1A2436",
+      "h": "#1A2436",
+      "i": "#1A2436",
+      "j": "#1A2436"
+    }
+  },
+  "fsltl": [
+    "fsltl-a319",
+    "fsltl-a320",
+    "fsltl-a321",
+    "fsltl-a20n"
+  ]
+}

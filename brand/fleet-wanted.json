@@ -1,0 +1,68 @@
+{
+  "brand": "wanted",
+  "title": "WANTED.solutions",
+  "creator": "WANTED.solutions s.r.o. | MyCrew.online",
+  "version": "1.0.0",
+  "icao": "WTD",
+  "callsign": "WANTED",
+  "selcal": [
+    "WS-AB",
+    "WS-CD",
+    "WS-EF",
+    "WS-GH",
+    "WS-JK",
+    "WS-LM",
+    "WS-PQ",
+    "WS-AC",
+    "WS-BD",
+    "WS-EG",
+    "WS-FH",
+    "WS-JL"
+  ],
+  "variants": {
+    "a": "Sweep",
+    "b": "Hexagon",
+    "c": "Midnight",
+    "d": "Flame"
+  },
+  "types": {
+    "a319": {
+      "regs": [
+        "OK-WSA",
+        "OK-WSB",
+        "OK-WSC",
+        "OK-WSD"
+      ]
+    },
+    "a320": {
+      "regs": [
+        "OK-WSE",
+        "OK-WSF",
+        "OK-WSG",
+        "OK-WSH"
+      ]
+    },
+    "a321": {
+      "regs": [
+        "OK-WSI",
+        "OK-WSJ",
+        "OK-WSK",
+        "OK-WSL"
+      ]
+    }
+  },
+  "fbw": {
+    "regs": [
+      "OK-WNA",
+      "OK-WNB",
+      "OK-WNC",
+      "OK-WND"
+    ],
+    "sharklet": {
+      "a": "#e8622a",
+      "b": "#f2f2f2",
+      "c": "#e8622a",
+      "d": "#e8622a"
+    }
+  }
+}

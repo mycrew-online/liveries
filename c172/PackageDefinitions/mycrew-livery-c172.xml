@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- MyCrew liveries for the MSFS 2024 Cessna 172 G1000 (asobo_c172sp_g1000).
+     Sources: scripts/c172-package.sh. UNVERIFIED: the asset group type. The
+     SDK here has no livery sample; "SimObject" is what the ground vehicles
+     use. If the tool rejects it for a livery-only folder, open the project in
+     the sim's Project Editor and add the folder as a livery asset group. -->
+<AssetPackage Version="0.1.0">
+	<ItemSettings>
+		<ContentType>LIVERY</ContentType>
+		<Title>MyCrew Cessna 172 G1000 Liveries</Title>
+		<Manufacturer>Cessna</Manufacturer>
+		<Creator>WANTED.solutions s.r.o. | MyCrew.online</Creator>
+	</ItemSettings>
+	<Flags>
+		<VisibleInStore>false</VisibleInStore>
+		<CanBeReferenced>false</CanBeReferenced>
+	</Flags>
+	<PackageOrderHint>SIMOBJECTS_PATCH</PackageOrderHint>
+	<AssetGroups>
+		<AssetGroup Name="mycrew-c172-liveries">
+			<Type Version="0">SimObject</Type>
+			<Flags>
+				<FSXCompatibility>false</FSXCompatibility>
+			</Flags>
+			<AssetDir>PackageSources\SimObjects\Airplanes\asobo_c172sp_g1000\Liveries\MyCrew\</AssetDir>
+			<OutputDir>SimObjects\Airplanes\asobo_c172sp_g1000\Liveries\MyCrew\</OutputDir>
+		</AssetGroup>
+	</AssetGroups>
+</AssetPackage>
