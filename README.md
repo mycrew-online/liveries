@@ -13,7 +13,6 @@ laid onto each model through Blender position maps (`blender/posmap.py`,
 - `paintkits/`: the aircraft makers' paint kits. Download them from the makers.
 - `tools/`: `texconv.exe` and `7zr.exe`. Download them from their projects.
 - `dist/`, `work/`: built packages and working files.
-- `brand/`: the WANTED and MyCrew logos.
 - The C172's compiled parts, which derive from the sim's stock skin.
 
 So the scripts do not run from a fresh clone without these.
